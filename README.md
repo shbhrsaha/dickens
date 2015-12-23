@@ -10,9 +10,13 @@ This application was written with web technologies using the [Electron](http://e
 
 ## Usage
 
-To run from source:
+[Download the latest binary](https://github.com/shbhrsaha/dickens/releases/download/v0.1/Dickens.zip). Or check out [all releases](https://github.com/shbhrsaha/dickens/releases).
+
+To run from source instead:
 - `npm install`
 - `npm start`
+
+Package with: `electron-packager . Dickens --platform=darwin --arch=x64 --version=0.36.0 --icon=img/dickens.icns`
 
 ## License
 

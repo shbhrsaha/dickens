@@ -1,6 +1,7 @@
 
 const remote = require('remote'); 
 const dialog = remote.require('dialog');
+const app = remote.app;
 const Menu = remote.Menu;
 const MenuItem = remote.MenuItem;
 const fs = require('fs');
