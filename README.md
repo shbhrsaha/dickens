@@ -1,3 +1,6 @@
+
+<img src="img/dickens.png" width="128" />
+
 # dickens
 The missing notes and highlights manager for Amazon Kindle
 
