@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dickens</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="../css/styles.css" rel="stylesheet"></link>
+    <script>window.$ = window.jQuery = require('../js/jquery.js');</script>
+    <script type="text/javascript" src="../js/jquery.hideseek.min.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <select class="btn-sm" id="diskList"></select>
+            <button class="btn btn-primary btn-sm" id="diskListButton">Load Titles</button>
+            <button class="btn btn-default btn-sm" id="refreshDiskListButton">Refresh Device List</button>
+        </div>
+      </div>
+      <input id="titleSearch" name="search" placeholder="Search titles" type="text" data-list="#titles" autocomplete="on" />
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-group" id="titles"></ul>
+          <div id="activeTitle"></div>
+          <div id="notes"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

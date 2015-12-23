@@ -1,0 +1,16 @@
+{
+  "name": "Dickens",
+  "version": "1.0.0",
+  "description": "The missing notes and highlights manager for Amazon Kindle",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Shubhro Saha",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "moment": "^2.10.6"
+  }
+}
